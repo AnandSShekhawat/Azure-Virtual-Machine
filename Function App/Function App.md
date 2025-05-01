@@ -194,3 +194,14 @@ The objective of this lab is to create and deploy an Azure Function App using Vi
 
     ![f19](task3-19.png)
 
+### Task 4 : Testing the Function App
+
+1. Go to Azure Portal, and search for **Function App (1)**, click on **Fucntion App (2)**.
+
+    ![t1](task4-1.png)
+
+2. From the list of Function Apps, select **blobtriggeredfunctionapp (1)**.
+
+    ![t2](task4-2.png)
+
+3. 
