@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vnetName": {
+        "value": "vnet"
+      },
+      "vnetAddressPrefix": {
+        "value": "192.168.0.0/16"
+      },
+      "subnetName": {
+        "value": "subnet1"
+      },
+      "subnetAddressPrefix": {
+        "value": "192.168.1.0/24"
+      },
+      "vmName": {
+        "value": "VM1"
+      },
+      "vmSize": {
+        "value": "Standard_B2ms"
+      },
+      "adminUsername": {
+        "value": "azureadmin"
+      },
+      "adminPassword": {
+        "value": "Password123456"
+      }
+    }
+  }
+  
