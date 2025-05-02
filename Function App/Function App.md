@@ -204,4 +204,39 @@ The objective of this lab is to create and deploy an Azure Function App using Vi
 
     ![t2](task4-2.png)
 
-3. 
+3. In the new Tab, open Storage Account and **upload (1)** a .png file to the blob container.
+
+    ![t3](task4-3.png)
+
+4. From the pop-up window, click on **Browse for files**.
+
+    ![t4](task4-4.png)
+
+5. From the Pop-up windows, **select (1)** the .png file you want to upload and click on **Open (2)**.
+
+    ![t5](task4-5.png)
+
+6. Click on the **Upload (1)**.
+
+    ![t6](task4-6.png)
+
+7. From the Left tab in Azure Function App go to the Settings and click on **Environment Variable (1)**.
+    
+    ![t7](task4-7.png)
+
+8. Click on **Add (2)**, to add an environment variable.
+
+    ![t7](task4-8.png)
+
+9. Add the variable name **AzureWebJobsStorage (1)**, in the value add **Connection String (2)** we copied from storage account, click on 
+
+    ![t9](task4-9.png)
+
+
+10. Go to the Azure Function App tab in the browser, in the Overview tab, go to Function **blobtriggerfunc (1)**.
+
+    ![t10](task4-7.png)
+
+11. In the logs, we can see the function getting triggered.
+    
+    ![t11](task4-11.jpg)
