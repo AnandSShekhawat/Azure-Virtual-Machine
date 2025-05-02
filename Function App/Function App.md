@@ -229,10 +229,13 @@ In this lab, you will create an Azure Function App using the Azure Portal. This 
 
     ![t7](task4-8.png)
 
-9. Add the variable name **AzureWebJobsStorage (1)**, in the value add **Connection String (2)** we copied from storage account, click on 
+9. Click on **Add (2)**. 
 
     ![t9](task4-9.png)
 
+10. In the Add/Edit application setting window, add name **AzureWebJobsStorage (1)**, in the value add **Connection String (2)** we copied from storage account, click on **Apply (3)**.  
+
+    ![t12](task4-10.png)    
 
 10. Go to the Azure Function App tab in the browser, in the Overview tab, go to Function **blobtriggerfunc (1)**.
 
