@@ -1,7 +1,8 @@
 # Function App Deployment Manual
-## Objective
-The objective of this lab is to create and deploy an Azure Function App using Visual Studio Code. The lab involves the following key steps:
+## Objective :
+In this lab, you will create an Azure Function App using the Azure Portal. This hands-on exercise guides you through the essential steps to deploy a serverless compute resource in Azure. By the end of the lab, you will understand how to configure a Function App, deploy and test a simple function, and manage basic settings. You will also gain foundational knowledge of Azure’s serverless architecture and its event-driven execution model.
 
+## Tasks :
 1. Creating an Azure Storage Account via the Azure Portal — this storage account will be used to support the function app's infrastructure.
 
 2. Creating an Azure Function App from within Visual Studio Code, including configuring the runtime and environment.
