@@ -6,7 +6,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 ## Tasks :
 
 - **Task 1** : Creating a Logic App.
-- **Task 2** : Execution of the Logic App.  
+- **Task 2** : Testing the Logic App.  
 
 ### Task 1 : Creating a Logic App
 
@@ -159,7 +159,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
     ![pic32](pic32(1).png)
 
 
-### Task 2 : Execution of Logic App  
+### Task 2 : Testing the Logic App  
 
 1. Write an email for Leave to work email.    
 
