@@ -28,7 +28,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic3](pic3(1).png)
 
-6. In the Create Logic App page, provide the Name of the Logic App as **"Gmail-AutoReply" (1)** and choose the Region as **Southeast Asia (2)**, click on the **Review + create (3)**.   
+6. In the Create Logic App page, provide a unique **Logic App name (1)** and choose the Region as **Southeast Asia (2)**, click on the **Review + create (3)**.   
 
     ![pic4](pic4(1).png)
 
@@ -56,15 +56,15 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic10](pic10(1).png)
 
-13. In the pop-window, provide email as **"work.email@gmail.com" (1)** and click **Next (2)** to sign in.  
+13. In the pop-window, provide the work **Email (1)** and click **Next (2)** to sign in.  
 
     ![pic11](pic11(1).png)
 
-14. Click on the **+** to **Add an action**.  
+14. Click on the **(+)** to **Add an action**.  
 
     ![pic12](pic12(1).png)
 
-15. Search for select **Condition**.    
+15. In the search bar, Search and select **Condition**.    
 
     ![pic13](pic13(1).png)
 
@@ -76,7 +76,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic15](pic15(1).png)
 
-18. In the pop-up window, write **"toLower(triggerBody()?['Subject'])" (1)** in the box and click on **Add (2)**.  
+18. In the pop-up window, insert **"toLower(triggerBody()?['Subject'])" (1)** in the box and click on **Add (2)**.  
 
     ![pic16](pic16(1).png)
 
@@ -84,11 +84,11 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic17](pic17(1).png)
 
-20. In the value box, write **"Leave" (6)**.  
+20. In the value box, insert **"Leave" (6)**.  
 
     ![pic18](pic18(1).png)
 
-21. From the Drop down **+ New item (7)**, select **Add row (8)**.  
+21. Click the Drop down **+ New item (7)**, select **Add row (8)**.  
 
     ![pic19](pic19(1).png)
 
@@ -96,11 +96,11 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic20](pic20(1).png)
 
-23. Click on **+** and select **Add an action**.  
+23. Click on **(+)** under the True and select **Add an action**.  
 
     ![pic21](pic21(1).png)
 
-24. Using the search bar, **Search (1)** and select **"Send email (V2)" (2)**.  
+24. Using the search bar, **Search** and select **Send email (V2)**.  
 
     ![pic22](pic22(1).png)
 
@@ -113,7 +113,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic24](pic24(1).png)
 
-27. In the Subject section, write **triggerBody()?['Subject'] (5)** and in the **Body section (6)** write: 
+27. In the Subject section, insert **triggerBody()?['Subject'] (5)** and for the **Body section (6)** of the email, copy the content given below:   
     ```
     Hi,
 
@@ -125,11 +125,11 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic25](pic25(1).png)
 
-28. Click on **+**, select **Add an action**.  
+28. Click on **(+)** below Send email (V2) and select **Add an action**.  
 
     ![pic26](pic26(1).png)
 
-29. In the **Search box (1)** type and select **Post message in a chat or channel (2)**.  
+29. Using the Search box, search for and select **Post message in a chat or channel**.  
 
     ![pic27](pic27(1).png)
 
@@ -137,7 +137,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic28](pic28(1).png)
 
-31. Provide the email id as **work.account@outlook.com (1)** and click on **Next (2)** to login.  
+31. Provide the Microsoft teams **Email (1)** and click on **Next (2)** to login.  
 
     ![pic29](pic29(1).png)
 
@@ -145,7 +145,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic30](pic30(1).png)
 
-33. In the Recipient provide the email as **work.account@outlook.com (3)**, and in the **Message (4)** write the following message:
+33. In the Recipient provide the email as **Microsoft Teams Email Id(3)**, and in the **Message (4)** write the following message:
     ```
     New email received with subject: "@{triggerBody()?['Subject']}"
     From: "@{triggerBody()?['From']}"
@@ -154,22 +154,29 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
 
     ![pic31](pic31(1).png)
 
-34. Click on **Save** to save workflow of the logic app.  
+34. From the Logic app designer, click on **Save** to save workflow for the logic app.  
 
     ![pic32](pic32(1).png)
 
 
 ### Task 2 : Validate Logic App Functionality  
 
-1. Write an email for Leave to work email.    
+1. From the peronal email id, write an email to the work email address provided in the logic app, requesting leave from work, using the word **Leave** in the subject line.   
 
     ![pic33](pic33(1).png)
 
-2. Auto-generated email received by sender.  
+2. After an email with **Leave** in the subject is received, an auto-generated response will be sent to the personal email address.  
 
     ![pic34](pic34(1).png)
 
-3. Notification received on the Microsoft teams chat.  
+3. A notification in the form of a new chat is also received on the Microsoft teams chat.  
 
     ![pic35](pic35(1).jpg)
 
+## Review
+In this lab you have completed the following:
+
+- Created a Logic App
+- Validated the Logic App Functionality
+
+#### You have successfully completed this workshop!
