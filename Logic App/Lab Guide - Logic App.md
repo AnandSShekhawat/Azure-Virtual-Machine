@@ -3,12 +3,12 @@
 
 In this step-by-step guide, you'll create an Azure Logic App (Consumption) that automatically replies to incoming Outlook emails based on specific keywords in the subject or body—such as "leave," "invoice," or "urgent." When such keywords are detected, the app sends a contextual auto-reply to the sender and posts a notification to the owner via Microsoft Teams chat. Through this exercise, you'll learn how to use connectors like Microsoft 365 Outlook and Teams, apply conditional logic, and integrate multiple actions to automate communication workflows efficiently.
 
-## Tasks :
+## Tasks to be done :
 
-- **Task 1** : Creating a Logic App.
-- **Task 2** : Testing the Logic App.  
+- **Task 1** : Create a Logic App.
+- **Task 2** : Validate Logic App Functionality.  
 
-### Task 1 : Creating a Logic App
+### Task 1 : Create a Logic App
 
 1. Go to [Azure Portal](https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Fportal.azure.com%2Fsignin%2Findex%2F&response_type=code%20id_token&scope=https%3A%2F%2Fmanagement.core.windows.net%2F%2Fuser_impersonation%20openid%20email%20profile&state=OpenIdConnect.AuthenticationProperties%3DqsxJ_h_KR0vAGL38j_E6NEOfPT89BBzyfiaJd0o_aZu89ZU2BfV4d-NjF3ckuwbcbNd9ZSmbNrLyTPsB0rWUflEMhXiSYwxIx3zGyeejW01DZjYmyLhfxqeDyW8DpNNkB0jaNXoEnvqCG4atochKbS-G-SCu7pXezUSIJyPQfYzAj3el_P5qyHPEM5WTTmnA&response_mode=form_post&nonce=638816784146084860.NGNhODI3MmUtOTc2ZS00NTA5LTkwM2YtMGVjZjg2ZmMxMDYwMjc0YmJmNTktMWJmZS00NzczLWE5MjItNTM3OTNkZTBmNmI0&client_id=c44b4083-3bb0-49c1-b47d-974e53cbdf3c&site_id=501430&prompt=select_account&client-request-id=90700cc0-64fe-4d3d-8694-5c55fe4ca558&x-client-SKU=ID_NET472&x-client-ver=8.3.0.0).
 
@@ -159,7 +159,7 @@ In this step-by-step guide, you'll create an Azure Logic App (Consumption) that 
     ![pic32](pic32(1).png)
 
 
-### Task 2 : Testing the Logic App  
+### Task 2 : Validate Logic App Functionality  
 
 1. Write an email for Leave to work email.    
 
