@@ -179,4 +179,4 @@ In this lab you have completed the following:
 - Created a Logic App
 - Validated the Logic App Functionality
 
-#### You have successfully completed this workshop!
+### You have successfully completed this Lab!
