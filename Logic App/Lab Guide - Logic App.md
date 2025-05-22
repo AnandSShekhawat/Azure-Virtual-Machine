@@ -1,7 +1,7 @@
 # Automated Email Response and Teams Notification Using Azure Logic Apps
 ## Overview :
 
-In this step-by-step guide, you'll create an Azure Logic App (Consumption) that automatically replies to incoming Outlook emails based on specific keywords in the subject or body—such as "leave," "invoice," or "urgent." When such keywords are detected, the app sends a contextual auto-reply to the sender and posts a notification to the owner via Microsoft Teams chat. Through this exercise, you'll learn how to use connectors like Microsoft 365 Outlook and Teams, apply conditional logic, and integrate multiple actions to automate communication workflows efficiently.
+In this step-by-step guide, you'll create an Azure Logic App (Consumption) that automatically replies to incoming Outlook emails based on specific keywords in the subject or body—such as "leave," "invoice," or "urgent." When such keywords are detected, the app sends a contextual auto-reply to the sender and posts a notification to the owner via Microsoft Teams chat. Through this exercise, you'll learn how to use connectors like Gmail and Microsoft Teams, apply conditional logic, and integrate multiple actions to automate communication workflows efficiently.
 
 ## Tasks to be done :
 
